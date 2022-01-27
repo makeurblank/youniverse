@@ -7,7 +7,9 @@
 build
 
 # Frontend
-/Users/spes/youniverse/web/.parcel-cache
+web/.parcel-cache
+web/dist
+web/node_modules
 
 # Configure
 app/src/main/resources/application.yml
