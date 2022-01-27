@@ -36,6 +36,12 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
+    // Mapper
+    compileOnly 'org.mapstruct:mapstruct:1.4.2.Final'
+
+    annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.2.Final'
+    testAnnotationProcessor 'org.mapstruct:mapstruct-processor:1.4.2.Final'
+
     // Builder
     compileOnly 'org.projectlombok:lombok:1.18.22'
     annotationProcessor 'org.projectlombok:lombok:1.18.22'

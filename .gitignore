@@ -6,6 +6,11 @@
 # Ignore Gradle build output directory
 build
 
+# Frontend
+web/.parcel-cache
+web/dist
+web/node_modules
+
 # Configure
 app/src/main/resources/application.yml
 app/src/main/resources/application-oauth.yml
