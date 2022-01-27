@@ -6,6 +6,9 @@
 # Ignore Gradle build output directory
 build
 
+# Frontend
+/Users/spes/youniverse/web/.parcel-cache
+
 # Configure
 app/src/main/resources/application.yml
 app/src/main/resources/application-oauth.yml
